@@ -1,0 +1,183 @@
+body {
+    background: #f3e5d3;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    height: 120rem;
+    width: 50%;
+    background: white;
+    border-radius: 15px;
+    padding: 2em;
+    margin: 0 auto;
+}
+
+.main img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.main h1 {
+    font-size: 2.5em;
+    color: rgba(0, 0, 0, 0.873);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.first-box p{
+font-size: 1.1em;
+color:rgba(0, 0, 0, 0.873) ;
+font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+}
+.second-box{
+    height: 13rem;
+    width: 100%;
+    background: #f3e5d387;
+  padding-top: 1em;
+  border-radius: 15px;
+  
+
+}
+.second-box p{
+    color: #742d49;
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 1.3em;
+}
+.second-box li{
+    font-size: 1em;
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  word-spacing: 5px;
+  line-height: 35px;
+  margin-left: 1em;
+  
+}
+.second-box b{
+    margin-left: 1em;
+}
+li::marker{
+    word-spacing: 1em;
+}
+
+.three-box{  font-size: 1em;
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  word-spacing: 5px;
+  line-height: 35px;
+    height: 18rem;
+    width: 100%;
+
+}
+.three-box p{
+    font-size: 2em;
+    font-family: "Young Serif", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #742d49;
+}
+.three-box li{
+    font-size: 1em;
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  word-spacing: 5px;
+  line-height: 35px;
+  margin-left: 1em;
+}
+hr{
+    border: 1px solid rgba(128, 128, 128, 0.816);
+}
+
+.forth-box{
+    width: 100%;
+}
+
+.forth-box p{
+    font-size: 2em;
+    font-family: "Young Serif", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #742d49;
+}
+.forth-box li{
+    font-size: 1em;
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  word-spacing: 5px;
+  line-height: 35px;
+  margin-left: 1em;
+  
+}
+.fifth-box p{
+    font-size: 2em;
+    font-family: "Young Serif", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #742d49;
+}
+#table{
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 1.2em;
+  color: rgba(0, 0, 0, 0.708);
+}
+.fifth-box table{
+    font-size: 1.2em;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    border: none;  
+    width: 32em;  
+}
+
+
+   
+#color{
+    color: #742d49;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+}
+
+td{
+    border-bottom: 1px solid black;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    
+}
+ li::marker{
+    color: #742d49;
+ }
+
+
+@media (min-width:375px) and (max-width:800px) {    
+    .main{
+     height: 140rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .fifth-box table{
+        width: 20em;
+    }
+}
+@media (min-width:801px) and (max-width:1445px) {
+    .main{
+     height: 140rem;
+        width: 50%;
+        
+    }
+    .fifth-box table{
+        width: 20em;
+    }
+}
